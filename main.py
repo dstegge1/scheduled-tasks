@@ -6,9 +6,6 @@ weather_api_key = os.environ.get("WEATHER_API_KEY")
 
 url = "https://api.openweathermap.org/data/2.5/forecast"
 browser_url = "https://api.openweathermap.org/data/2.5/forecast?lat=39.29&lon=76.61&appid=5e87e0cbf287e67a6e62a6ec4d19c854"
-MY_EMAIL = "dylansteggerda@gmail.com"
-TO_EMAIL = "steggerda.dylan@outlook.com"
-MY_PASSWORD = "ppaqaowbcbaxgiae"
 
 weather_params = {
     "lat": 39.2905,
