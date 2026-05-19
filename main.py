@@ -1,4 +1,3 @@
-nimport requests
 import smtplib
 import os
 
