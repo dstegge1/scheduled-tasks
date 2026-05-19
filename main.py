@@ -2,7 +2,7 @@ import requests
 import smtplib
 import os
 
-weather_api_key = fc09d8639ec0775f51d783ec11c7ab60
+weather_api_key = "fc09d8639ec0775f51d783ec11c7ab60"
 my_email = os.getenv("MY_EMAIL")
 to_email = os.getenv("TO_EMAIL")
 my_password = os.getenv("MY_PASSWORD")
