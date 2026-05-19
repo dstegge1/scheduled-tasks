@@ -3,12 +3,12 @@ import smtplib
 import os
 
 weather_api_key = os.getenv("WEATHER_API_KEY")
+print(weather_api_key)
 my_email = os.getenv("MY_EMAIL")
 to_email = os.getenv("TO_EMAIL")
 my_password = os.getenv("MY_PASSWORD")
 
 url = "https://api.openweathermap.org/data/2.5/forecast"
-browser_url = "https://api.openweathermap.org/data/2.5/forecast?lat=39.29&lon=76.61&appid=5e87e0cbf287e67a6e62a6ec4d19c854"
 
 weather_params = {
     "lat": 39.2905,
